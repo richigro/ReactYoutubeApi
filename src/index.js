@@ -30,10 +30,10 @@ class App extends Component {
     return(
       <div>
         <SearchBar />
-        <VideoDetail videos={this.state.videos}/>
+        <VideoDetail />
       {/* // this property passes data from the app components
       // to the VideoList component */}
-      <VideoList videos={this.state.videos}/>
+      <VideoList videos={this.state.videos/>
       </div>
     );
   }
